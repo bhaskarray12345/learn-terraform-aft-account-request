@@ -2,12 +2,12 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "<ACCOUNT EMAIL>"
-    AccountName               = "sandbox-aft"
+    AccountEmail              = "bhaskar.ray082021@outlook.com"
+    AccountName               = "metasphere-uk"
     ManagedOrganizationalUnit = "Learn AFT"
-    SSOUserEmail              = "<SSO EMAIL>"
-    SSOUserFirstName          = "Sandbox"
-    SSOUserLastName           = "AFT"
+    SSOUserEmail              = "bhaskar.ray082021@outlook.com"
+    SSOUserFirstName          = "Metasphere"
+    SSOUserLastName           = "Bureau"
   }
 
   account_tags = {
@@ -23,5 +23,5 @@ module "sandbox" {
     group = "non-prod"
   }
 
-  account_customizations_name = "sandbox"
+  account_customizations_name = "metasphere-uk"
 }

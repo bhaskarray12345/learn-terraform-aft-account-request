@@ -2,12 +2,12 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "bhaskar.ray082021@outlook.com"
-    AccountName               = "metasphere-uk"
+    AccountEmail              = "bhaskar.ray102024@outlook.com"
+    AccountName               = "southern-water"
     ManagedOrganizationalUnit = "Learn AFT"
-    SSOUserEmail              = "bhaskar.ray082021@outlook.com"
-    SSOUserFirstName          = "Metasphere"
-    SSOUserLastName           = "Bureau"
+    SSOUserEmail              = "bhaskar.ray102024@outlook.com"
+    SSOUserFirstName          = "Southern"
+    SSOUserLastName           = "Water"
   }
 
 
@@ -24,5 +24,5 @@ module "sandbox" {
     group = "non-prod"
   }
 
-  account_customizations_name = "metasphere-uk"
+  account_customizations_name = "southern-water"
 }
